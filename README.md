@@ -2,7 +2,7 @@
 <p>Welcome to SparkWeb, your one-stop hub for navigating the dynamic realm of digital marketing! 🚀📱</p>
 
 <h2>Project Overview</h2>
-<p>This endeavor is a component of the OSF Digital ecommerce course, aimed at constructing a captivating online store for digital marketing using HTML, CSS, and JavaScript. At SparkWeb, we are on a mission to revolutionize the digital marketing landscape. Our focus revolves around leveraging innovative strategies and cutting-edge technologies to propel businesses towards unparalleled online success. Dive into a world where creativity meets analytics, and where every click sparks new possibilities.</p>
+<p>This project is a component of the OSF Digital ecommerce course, aimed at constructing a captivating online store for digital marketing using HTML, CSS, and JavaScript. At SparkWeb, we are on a mission to revolutionize the digital marketing landscape. Our focus revolves around leveraging innovative strategies and cutting-edge technologies to propel businesses towards unparalleled online success. Dive into a world where creativity meets analytics, and where every click sparks new possibilities.</p>
 
 <h2>Technologies Used</h2>
 <ul>
