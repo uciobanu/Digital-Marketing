@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></head>
+    <body>
+        
+        <div style="display: flex;">
+            <div id="subscribe-container" style="display: inline-block; left: 41px; bottom: 80px; position: fixed;">
+              <label for="email-input" style="color: white; font-size: 16px; font-family: Hind Vadodara; font-weight: 400; text-transform: uppercase; line-height: 25.49px; letter-spacing: 0.32px; word-wrap: break-word">Enter Your Email</label>
+              <input type="email" id="email-input" placeholder="your.email@example.com" style="width: 200px; height: 24px;">
+              <button id="send-btn" onclick="subscribe()" style="width: 50px; height: 24px; background-color: #FDC221; color: white; border: none; cursor: pointer;">Send</button>
+            </div>
+            <div style="color: rgb(24, 21, 21); font-size: 16px; font-family: Hind Vadodara; font-weight: 600; text-transform: uppercase; line-height: 25.49px; letter-spacing: 0.32px; word-wrap: break-word; margin-top: 2cm;">Get In Touch</div>
+          </div> <p id="message"></p>
+            </div>
+
+            <script>
+                function subscribe() {
+                  var email = document.getElementById('email-input').value;
+                  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                  if (!emailRegex.test(email)) {
+                    document.getElementById('message').innerText = 'Please enter a valid email address.';
+                    return;
+                  }
+                  document.getElementById('message').innerText = 'Subscription successful!';
+                }
+              </script>
+              </body>
+</html>
