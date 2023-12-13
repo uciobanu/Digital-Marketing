@@ -1,0 +1,26 @@
+.label-title {
+    width: 498px;
+    height: 261px;
+  }
+
+  .label-title .title {
+    position: absolute;
+    width: 1500px;
+    top: 0;
+    left: 0;
+    font-family: "Hind Vadodara-Bold", Helvetica;
+    color: #331b3b;
+    font-size: 50px;
+    letter-spacing: -0.50px;
+    line-height: 50px;
+  }
+  .label-title .title .title2 {
+    font-family: "Hind Vadodara-Light", Helvetica;
+    font-weight: 100;
+}
+  .label-title .title1{
+    font-weight: 700;
+  }
+  
+  
+  
