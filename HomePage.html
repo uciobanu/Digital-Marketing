@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SparkWeb - Digital Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+          <img style="position: fixed; left: 0; top: 0" src="c:\Users\Lia\Downloads\Option_1-removebg-preview (1) 1.png" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Lia/Downloads/Ecommerce/404page.html">Home</a></li>
+                <li><a href="file:///C:/Users/Lia/Downloads/Ecommerce/404page.html">Services</a></li>
+                <li><a href="file:///C:/Users/Lia/Downloads/Ecommerce/404page.html">About Us</a></li>
+                <li><a href="file:///C:/Users/Lia/Downloads/Ecommerce/404page.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <script>
+            function redirectTo404() {
+                window.location.href = "404.html";
+            }
+        </script>
+        
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <h2>We Help you to grow your ✨Business✨</h2>
+            <p>SparkWeb is a dynamic and innovative digital marketing company that had its roots planted in Iasi, Romania. Established with a vision to redefine the digital landscape, SparkWeb specializes in providing cutting-edge solutions to businesses looking to thrive in the online realm.</p>
+            <a href="#services" class="cta-button">Explore Services</a>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <style>
+                body {
+               font-family: Arial, sans-serif;
+               margin: 0;
+               padding: 0;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               background-color: white;
+           }
+       
+           header {
+               background-color: rgb(220, 168, 26);;
+               color: white;
+               text-align: center;
+               padding: 20px;
+               width: 100%;
+           }
+       
+           .description {
+               text-align: center;
+               margin: 20px 0;
+           }
+       
+           .content {
+               display: flex;
+               width: 100%; 
+               border-top: 1px solid gray;
+               border-bottom: 1px solid gray;
+           }
+       
+           .categories,
+           .products,
+           .cart {
+               padding: 20px;
+               box-sizing: border-box;
+           }
+       
+           .categories {
+               text-align: left;
+               width: 20%;
+               border-right: 1px solid gray;
+           }
+       
+           .products {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: space-around;
+               width: 60%;
+               border-right: 1px solid gray;
+           }
+       
+           .product {
+               background-color: white;
+               border: 1px solid rgb(220, 168, 26);
+               margin: 10px;
+               padding: 20px;
+               width: 200px;
+               text-align: center;
+           }
+       
+           .product img {
+               max-width: 100%;
+               height: auto;
+           }
+       
+           .cart {
+               text-align: right;
+               width: 20%;
+           }
+           </style>
+       
+       </head>
+       
+       <body>
+       
+       
+           <div class="content">
+               <div class="categories">
+                   <h2>Categories</h2>
+                   <ul>
+                       <li><a href="#">WebSite Design</a></li>
+                       <li><a href="#">Web Development</a></li>
+                       <li><a href="#">SEO</a></li>
+                       <li><a href="#">Social Media Marketing</a></li>
+                       <li><a href="#">Pay-Per-Click Advertising</a></li>
+                       <li><a href="#">Online Reputation Management</a></li>
+                   </ul>
+               </div>
+       
+               <div class="products">
+                
+                   <div class="product">
+                       <img src="https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" alt="Product 1">
+                       <h3>WebSite Development</h3>
+                       <div class="buttons">
+                           <button onclick="addToCart(this)">Buy It</button>
+                           
+                       </div>
+                   </div>
+       
+          
+                   <div class="product">
+                       <img src="https://sitechecker.pro/wp-content/uploads/2018/02/Knowledge-base-part-3_what-is-seo.jpg" alt="Product 2">
+                       <h3>SEO</h3>
+                       <div class="buttons">
+                           <button onclick="addToCart(this)">Buy It</button>
+       
+                       </div>
+                   </div>
+       
+                   
+                   <div class="product">
+                       <img src="https://easy-sales.com/blog/ro/wp-content/uploads/2022/12/social-media-marketing.png" alt="Product 3">
+                       <h3>Social Media Manager</h3>
+                       <div class="buttons">
+                           <button onclick="addToCart(this)">Buy It</button>
+                       </div>
+                   </div>
+               </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <!-- Testimonials content here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.instagram.com/sparkweb.ro/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=61553803603175" target="_blank"><img src="https://static-00.iconduck.com/assets.00/facebook-icon-512x512-seb542ju.png" alt="Facebook"></a>
+        </div>
+        <p>Contact us at: contact@sparkweb.com</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <style>
+      /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #ffa500;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffa500;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+
+    </style>
+<br>
+<br>
+<div id="subscribe-container">
+    <label for="email-input">Enter Your Email</label>
+    <input type="email" id="email-input" placeholder="your.email@example.com">
+    <button onclick="subscribe()">Send</button>
+    <p id="message"></p>
+</div>
+
+<script>
+    function subscribe() {
+        var email = document.getElementById('email-input').value;
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!emailRegex.test(email)) {
+            document.getElementById('message').innerText = 'Please enter a valid email address.';
+            return;
+        }
+
+        // For demonstration purposes, display a success message
+        document.getElementById('message').innerText = 'Subscription successful!';
+    }
+</script>
+
+
+
+
+    
+</body>
+
+</html>
